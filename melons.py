@@ -1,5 +1,5 @@
 melons = {
-    'Honeydew': {
+    "Honeydew": {
         name: "Honeydew",
         price: 0.99,
         seedless: True
@@ -46,7 +46,7 @@ melons = {
         flesh_color: None
         weight: None
         rind_color: None
-        
+
     }
 }
 
