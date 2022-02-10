@@ -2,12 +2,12 @@
 
 from melons import melons
 
-def print_melon(melon,value):
+def print_melon(melons):
     """Print each melon with corresponding attribute information."""
 
     for melon, attributes in melons.items():
         print(melon.upper())
         for name, value in attributes.items():
-            print(f'{name}: {value}')
+            print(f'     {name}: {value}')
 
-print(melons)
+print_melon(melons)
